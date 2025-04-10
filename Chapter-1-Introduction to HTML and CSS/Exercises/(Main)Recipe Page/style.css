@@ -11,7 +11,7 @@ header {
     background-color: #443627;
     color: white;
     text-align: center;
-    padding: 20px; /* Makes sure enough space around text */
+    padding: 20px;
     font-size: 24px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ hr {
     border: 0;
     height: 2px;
     background-color: #D98324;
-    margin: 20px 0; /* Add space above and below  line */
+    margin: 20px 0;
 }
 
 
@@ -57,10 +57,10 @@ p {
 
 .image-container {
     display: flex;
-    flex-direction: row; /* Align image and text in a row */
-    align-items: center; /*
-    gap: 20px; /* Space between image and text */
-    max-width: 100%; /* Ensures the container doesn't overflow */
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
 }
 
 
@@ -70,7 +70,7 @@ figure img {
     height: 185px;
     display: block;
     margin: 10px auto;
-    border: 3px solid #D98324; /* Adds a border to image */
+    border: 3px solid #D98324;
     border-radius: 5px;
 }
 
